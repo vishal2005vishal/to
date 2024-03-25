@@ -1,0 +1,256 @@
+
+    .by{
+        display: none;
+    }
+    .bye{
+        
+      
+        display: none;
+    }
+    .p{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .p a{
+      
+        color: gray;
+    }
+    .list{
+        display: flex;
+        justify-content: space-around;
+      color: gray;
+    }
+    .list ol a{
+        color: gray;
+    }
+    .list ol li{
+        list-style-type:none;
+        
+    }
+    .li{
+    
+        width: 80vw;
+        padding: 15px;
+        border-radius: 10px;
+        border: 1px solid whitesmoke;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: rgba(92, 83, 83, 0.772);
+    }
+    .n{
+        display: flex;
+    }
+    .lb{
+        margin-top: 10px;
+        margin-left: 10px;
+         width: 20vw;
+         height: 8vh;
+         border:none;
+         background-color: red;
+         color: white;
+         border-radius: 10px;
+    }
+    .fre{
+        min-height: 100vh;
+        background-color: black;
+        color: white;
+        padding: 10px;
+    }
+    .fr{
+        padding: 20px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+    .fr div{
+        width: 70vw;
+        padding: 20px;
+        margin: 10px;
+        
+        background-color: rgba(92, 83, 83, 0.772);
+    }
+    .tv{
+        min-height: 100vh;
+        background-color: black;
+        color: white;
+        padding: 10px;
+    }
+    
+    .t{
+   padding: 20px;
+        display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap
+}
+.t div{
+    border-radius: 20px;
+    padding: 20px;
+    background-image: linear-gradient(to right, rgba(56, 56, 134, 0.434), rgba(81, 20, 75, 0.393));
+    
+    position: relative;
+    flex-basis: 40%;
+    
+    margin: 10px;
+}
+    header input{
+        padding: 10px;
+        width: 50vh;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: none;
+        border: 1px solid whitesmoke;
+        background-color: rgba(16, 16, 16, 0.772);
+        margin: 10px;
+    }
+    header button{
+       
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: red;
+        color: white;
+        border: none;
+        font-size: 15px;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header{
+        padding: 20px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height:80vh;
+        flex-direction: column;
+        text-align: center;
+    }
+    header h1{
+        font-size: 50px;
+        font-weight: 1000;
+    }
+    section{
+        
+    font-family: "Poppins", sans-serif;
+    font-style: bold;
+
+        background-image: url(netflix-collection.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+    }
+    .c{
+        min-height: 100vh;
+        background-color: rgba(16, 16, 16, 0.772);
+    }
+   .navbar{
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+   }
+  .navbar-links{
+    
+  }
+  select{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(31, 29, 29, 0.772);
+
+    color: white;
+  }
+  
+ .navbar button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+  }
+  @media screen and (max-width:700px){
+    .navbar{
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+   }
+   .n{
+        flex-direction: column;
+    }
+   .bye{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: none;
+        background-color: red;
+        color: white;
+        border-radius: 10px;
+    display: block;
+   }
+    .list{
+        flex-direction: column;
+        
+    }
+    .list ol li{
+        
+        padding: 10px;
+    }
+    .list ol li a{
+        font-size: 20px;
+    }
+   header button{
+       
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: red;
+        color: white;
+        border: none;
+        font-size: 10px;
+    }
+
+   .navbar img{
+    width: 80px;
+   }
+   header .but{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  
+   }
+   header h1{
+        font-size: 30px;
+        font-weight: 1000;
+    }
+    .t{
+        flex-direction: column;
+    }
+    .lb{
+        margin-left: 10px;
+         width: 50vw;
+         height: 10vh;
+         border:none;
+         background-color: red;
+         color: white;
+         font-size: 20px;
+    }
+  }
